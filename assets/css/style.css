@@ -1,0 +1,9 @@
+.m-0 {
+  margin: 0;
+}
+
+@media(max-width:640px) {
+.show {
+  rightt: 0% !important;
+}
+}

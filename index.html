@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="m-0 relative overflow-hidden">
+    <nav class="flex items-center justify-between container h-[94px] mx-auto  px-4">
+      <a href="#" class="font-bold text-5xl text-blue-600 font-mono">Logo</a>
+      <ul class="flex max-sm:flex-col max-sm:absolute max-sm:min-h-[100vh] max-sm:w-full max-sm:left-[-100] max-sm:top-0 navBar items-center justify-center gap-5">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="max-sm:flex hidden menuButton items-center justify-center flex-col gap-1">
+        <span class="bg-black w-6 h-1"></span>
+        <span class="bg-black w-6 h-1"></span>
+        <span class="bg-black w-6 h-1"></span>
+      </div>
+    </nav>
+
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
